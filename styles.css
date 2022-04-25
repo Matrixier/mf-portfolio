@@ -46,3 +46,36 @@ li a:hover{
     align-items: center;
     padding: 0 20px;
 }
+#projects{
+    background-color: rgb(233, 229, 224);
+    padding: 32px 0;
+    margin-top: 1rem;       /*REMOVE WHEN FINISHED*/
+}
+.project-pic{
+    width: 60%;
+    height: 65%;
+}
+.projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.project-container{
+    text-align: center;
+    width: 21rem;
+    padding: 1rem;
+}
+.project-container p{
+    padding: 0.4rem;
+}
+.project-title{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.projects-title{
+    text-align: center;
+}
