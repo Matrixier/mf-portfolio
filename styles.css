@@ -13,7 +13,7 @@
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: #be3144;
     position: fixed;
     width: 100%;
 
@@ -21,12 +21,13 @@
 .logo{
     color: rgb(146, 143, 143);
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .nav-links{
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 li a{
     text-decoration: none;
@@ -35,19 +36,27 @@ li a{
     margin-right: 20px;
 }
 li a:hover{
-    color:bisque;
+    color: #45567d;
 }
 #welcome-section{
     display: flex;
     flex-direction: column;
-    background-color: rgb(135, 120, 102);
+    background-color: #303841;
     height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 0 20px;
 }
+.welcome-message{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.text-under{
+    color: #be3144;
+    font-size: 30px;
+}
 #projects{
-    background-color: rgb(233, 229, 224);
+    background-color: #45567d;
     padding: 32px 0;
 }
 .project-pic{
@@ -59,10 +68,7 @@ li a:hover{
     align-items: center;
     justify-content: center;
 }
-.project-title{
-    text-align: center;
-    margin-bottom: 1rem;
-}
+
 .project-container{
     text-align: center;
     width: 21rem;
@@ -70,18 +76,21 @@ li a:hover{
 }
 .project-container p{
     padding: 0.4rem;
+    color: whitesmoke;
 }
 .project-title{
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    color: whitesmoke;
 }
 .projects-title{
     text-align: center;
     margin-bottom: 2rem;
+    color: whitesmoke;
 }
 .project-container a{
     text-decoration: none;
-    color: black;
+    color: rgb(156, 154, 154);
 }
 @media (min-width:100px) and (max-width: 1024px){
     
